@@ -8,10 +8,10 @@
 }
 .c1 {
   position: absolute;
-  width: 600px;
-  height: 346px;
-  left: 120px;
-  margin-top: 246px;
+  width: 40%;
+  height: 55%;
+  left: 8%;
+  margin-top: 15%;
 }
 .c1 span {
   left: 8.33%;
@@ -31,8 +31,6 @@
 .c1_1 {
   width: 100%;
   height: 22%;
-  top: 354px;
-  left: 120px;
 }
 .c1_1 p {
   position: absolute;
@@ -56,8 +54,9 @@
   padding: 0px;
   gap: 16px;
   position: absolute;
-  width: 362px;
+  width: 35%;
   height: 50px;
+  border: 1ps solid red !important;
   left: 0px;
 }
 .c1_2 .b1 {
@@ -66,9 +65,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 15px 20px;
-  gap: 4px;
-  width: 170px;
+  padding: 2% 3%;
+  gap: 2%;
+  width: 100%;
   height: 50px;
   background: #f7f5eb;
   border: 1px solid #005c87;
@@ -83,9 +82,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 15px 20px;
-  gap: 4px;
-  width: 180px;
+  padding: 2% 3%;
+  gap: 2%;
+  width: 100%;
   height: 50px;
   background: #005c87;
   border-radius: 40px;
@@ -119,8 +118,8 @@
   border: 0.01px solid #85c0ea;
 }
 .c2 {
-  margin-top: 80px;
-  width: 250px;
+  margin-top: 7%;
+  width: 25%;
   margin-left: 750px;
 }
 .c2 > div:not(:last-child) {
@@ -150,9 +149,9 @@
 }
 
 .c3 {
-  margin-top: 80px;
-  width: 250px;
-  margin-left: 20px;
+  margin-top: 70px;
+  width: 25%;
+  margin-left: 2%;
   display: flex;
   flex-direction: column; /* Align items in column */
   align-items: center; /* Center items horizontally */
@@ -312,6 +311,15 @@
   background: linear-gradient(133.03deg, #af87c1 25.62%, #6781c3 73.49%);
   border-radius: 40px;
   color: white;
+}
+.c2_4 {
+  position: relative;
+
+  left: 0px !important;
+  top: 0px !important;
+
+  height: 1000px;
+  border: 1px solid;
 }
 .c2_4_1 {
   display: flex;
@@ -539,4 +547,36 @@
   height: 12px;
   background: rgba(0, 92, 135, 0.1);
   border-radius: 11px;
+}
+
+@media only screen and (max-width: 800px) {
+  .MainContainer {
+    margin-top: 25%;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .c1 {
+    height: 80%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .c1 span {
+    font-weight: 550;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .c1_1 p {
+    top: 23.21%;
+  }
+  .c2 {
+    /* display: none; */
+    margin-top: 460px;
+    margin-left: 20%;
+  }
+  .c3 {
+    margin-left: 60%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
 }

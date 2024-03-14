@@ -7,7 +7,7 @@ import table from "../../assets/table.jpg";
 import stress from "../../assets/stress.jpg";
 import run from "../../assets/run.jpg";
 import seat from "../../assets/seat.png";
-import womb from "../../assets/womb.jpg";
+// import womb from "../../assets/womb.jpg";
 import Apple from "../../assets/apple.jpg";
 import floww from "../../assets/floww.jpg";
 import fire from "../../assets/Fire.jpg";
@@ -95,7 +95,7 @@ function Page1() {
             </div>
           </div>
 
-          <div className="c2_4">
+          {/* <div className="c2_4">
             <div className="c2_4_1">
               <img src={womb} />
               <p>Global Challenges Particip...</p>
@@ -104,7 +104,7 @@ function Page1() {
               <p>All Employee Joined</p>
               <button>1 time</button>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="c3">
           <div className="c3_1">
