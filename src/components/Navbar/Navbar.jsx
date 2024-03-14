@@ -4,7 +4,6 @@ import Vector from "../../assets/Vector.jpg";
 import Vector1 from "../../assets/Vector1.jpg";
 import Group from "../../assets/Group.jpg";
 
-
 function ResponsiveAppBar() {
   return (
     <>
@@ -17,7 +16,9 @@ function ResponsiveAppBar() {
             Products
             <img src={Vector} />
           </button>
-          <button>Solution <img src={Vector1} /></button>
+          <button>
+            Solution <img src={Vector1} />
+          </button>
           <button>Resources</button>
           <button>About</button>
         </div>
@@ -26,7 +27,7 @@ function ResponsiveAppBar() {
           <button>BOOK A CALL</button>
         </div>
         <div className="media">
-     <img src={Group}/>
+          <img src={Group} />
         </div>
       </div>
     </>

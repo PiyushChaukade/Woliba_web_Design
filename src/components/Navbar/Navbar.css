@@ -13,8 +13,6 @@
   height: 40px;
   left: 8.33%;
   right: 81.46%;
-  border: 1px solid;
-
   top: calc(50% - 40px / 2 + 0px);
 }
 
@@ -27,7 +25,6 @@
   gap: 3%;
   position: absolute;
   width: 38%;
-  border: 1px solid;
   height: 40px;
   left: calc(50% - 520px / 2);
   top: 18%;
@@ -64,7 +61,6 @@
   gap: 16px;
   position: absolute;
   width: 20%;
-  border: 1px solid yellow;
   height: 50px;
   left: 75%;
   top: 18%;

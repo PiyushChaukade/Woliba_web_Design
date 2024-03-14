@@ -87,9 +87,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="c3_footer">
-            <p>
-            © 2020 Training Amigo Inc. All Rights Reserved
-            </p>
+          <p>© 2020 Training Amigo Inc. All Rights Reserved</p>
         </div>
       </div>
     </>
